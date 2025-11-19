@@ -114,8 +114,10 @@ export default function Home() {
                 className="from-tablet-justify-start"
               >
                 <a
-                  href="./CV - Elikplim Yaa Anumu.tsx"
-                  download="CV - Elikplim Yaa Anumu.tsx"
+                  href="/CVElikplimYaaAnumu.pdf" // ← Starts with /, no "public", no ".."
+                  download="Elikplim_Yaa_Anumu_Resume.pdf" // ← Clean downloaded filename
+                  target="_blank" // ← Optional: opens in new tab if not downloading
+                  rel="noopener noreferrer" // ← Security best practice
                   style={{
                     backgroundColor: "#a78bfa",
                     color: "#000",
