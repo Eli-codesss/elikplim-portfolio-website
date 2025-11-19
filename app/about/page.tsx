@@ -74,7 +74,7 @@ export default function About() {
             <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
               {[
                 "Frontend & Full-stack development using React/Next.js and .NET stacks.",
-                "Manual & API testing (Postman, Playwright) to ensure product quality.",
+                "Manual & API testing (Postman, Swagger) to ensure product quality.",
                 "Networking, system troubleshooting, and infrastructure optimizations.",
               ].map((item, i) => (
                 <li
